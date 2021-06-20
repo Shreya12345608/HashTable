@@ -60,7 +60,6 @@ namespace HashTable
             /// Adds the key-value pair at the end of the linked list
             linkedList.AddLast(item);
         }
-
         public V GetValue(K key)
         {
             int position = GetPositionInArray(key);

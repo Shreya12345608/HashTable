@@ -9,7 +9,7 @@ namespace HashTable
     //class for KeyValue pair of key and value
     public class KeyValue<K, V>
     {
-        // propery for key and value 
+        // propery for key and value
         public K Key { get; set; }
         public V Value { get; set; }
     }
